@@ -9,7 +9,7 @@ on:
 # Job tells what the workflow should do, there cann be on or more than one jobs, Hence we write Jobs
 # jobs is a object so need indentation
 
-Jobs:  
+jobs:  
   # 1st job (give-indentation)
   say-hello:
     # create an Ephermal Container with ubuntu running

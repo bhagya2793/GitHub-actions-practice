@@ -1,0 +1,17 @@
+# Workflow
+# Should Have Name
+name: Hello
+
+# on tells when the workflow should run 
+on: 
+  workflow_dispatch: 
+  
+# Job tells what the workflow should do
+Jobs:  
+  # 1st job (give-indentation)
+  say-hello:
+    # create an Ephermal Container with ubuntu running
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello to everyone
+        run: echo "Hello Dosto"
